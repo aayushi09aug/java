@@ -9,7 +9,7 @@ public class Main
 	{
 	    
 	    StarPattern oStarPattern = new StarPattern();
-	  /*  System.out.print("Enter the dimension : ");
+	    System.out.print("Enter the dimension : ");
 	    Scanner sc =new Scanner(System.in);
 	    int n=sc.nextInt();
 	    oStarPattern.rightTriangle(n);
@@ -21,8 +21,7 @@ public class Main
 	    oStarPattern.rightInverseMirrorTriangle(n);
 	    System.out.print("\n");
 	    oStarPattern.diamondPattern(n);
-	    System.out.print("\n");*/
-	    int n=7;
+	    System.out.print("\n");
 	    oStarPattern.innerDiamondPattern(n);
 	}
 }
@@ -124,20 +123,7 @@ class StarPattern
 	        }
 	        System.out.print("\n");
 	    }
-	}
-	
-/*	
-************
-*****  *****
-****   ******
-***     ***
-**       **
-***     ***
-****   ****
-***** *****
-***********
-*/
-	
+	}	
 	
 	public void innerDiamondPattern(int n) 
 	{
@@ -186,10 +172,3 @@ class StarPattern
 	    
 	}    
 }
-
-
-
-
-
-
-
